@@ -1,6 +1,9 @@
 // this is java code for taking input from user
-//  import java.io. ; is use for using input library in java 
+/*java.util → this is a package (a folder of useful classes)
+Scanner → a class inside that package
+import → allows you to use that class in your program*/
 // import java.util.*;
+import java.util.Scanner;
 package Java_Code_Series;
 
 import java.util.Scanner;
@@ -17,4 +20,5 @@ public class Inputs_04 {
         }
     }
 }
+
 
