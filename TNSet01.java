@@ -38,11 +38,11 @@ public class TNSet01 {
         System.out.println(+km+" = "+miles+"miles");
 
 //        Question - 5 Wap to select whether a number entered by a user is integer or not
-        Scanner in = new Scanner(System.in);
         System.out.println("Enter a variable");
-        boolean var=in.hasNextInt();
+        Scanner var = new Scanner(System.in);
         System.out.println("Is this integer?");
-        System.out.println(var);
+        System.out.println(var.hasNextInt());
     }
 }
+
 
